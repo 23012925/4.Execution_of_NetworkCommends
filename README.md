@@ -6,22 +6,13 @@ In this EXPERIMENT- students have to understand basic networking commands e.g cp
 All commands related to Network configuration which includes how to switch to privilege mode
 and normal mode and how to configure router interface and how to save this configuration to
 flash memory or permanent memory.
-<BR>
 This commands includes
-<BR>
 • Configuring the Router commands
-<BR>
 • General Commands to configure network
-<BR>
 • Privileged Mode commands of a router 
-<BR>
 • Router Processes & Statistics
-<BR>
 • IP Commands
-<BR>
 • Other IP Commands e.g. show ip route etc.
-<BR>
-
 ## Program
 ### CLIENT:
 ```import socket
