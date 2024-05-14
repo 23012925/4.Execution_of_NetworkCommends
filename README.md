@@ -27,13 +27,11 @@ This commands includes
 <BR>
 
 ## Program
-
 ### CLIENT:
 ```import socket
 from pythonping import ping
 s=socket.socket()
 s.bind(('localhost',8000))
-s.listen(5)
 while True:
     c,addr=s.accept()
     print("Connecting from ",addr)
@@ -78,13 +76,11 @@ result, unans = traceroute(target,maxttl=32)
 print(result,unans)
 ```
 ## Output
-
 ### CLIENT:
 ![image](https://github.com/Harevasu/4.Execution_of_NetworkCommends/assets/147985044/8db6ea32-232e-4e4d-9cb8-17fe28905f80)
 ### SERVER:
 ![image](https://github.com/Harevasu/4.Execution_of_NetworkCommends/assets/147985044/cc32b8eb-957c-4693-b025-9aa40d34bf97)
 ### TRACEROUTE COMMAND:
 ![image](https://github.com/Harevasu/4.Execution_of_NetworkCommends/assets/147985044/a3a76774-1fc5-453b-a0fe-b1bd35d1595a)
-
 ## Result
 Thus Execution of Network commands Performed 
